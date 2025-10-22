@@ -6314,36 +6314,6 @@
 			(layer "Dwgs.User")
 			(uuid "03ac3448-c8e9-4306-8c29-ff97209ddf9f")
 		)
-		(fp_line
-			(start -6 -11.75)
-			(end -6 8.89)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "40946c42-fb97-42a9-8337-91e818a0fd18")
-		)
-		(fp_line
-			(start -6 8.89)
-			(end 6 8.89)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "f281f673-cd3c-4278-98bc-35c60c169c4c")
-		)
-		(fp_line
-			(start 6 8.89)
-			(end 6 -11.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "dc706e26-b332-4bf0-8187-ae32877c9e58")
-		)
 		(pad "1" thru_hole oval
 			(at 7.62 -10.16 180)
 			(size 2.5 1.5)
