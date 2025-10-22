@@ -489,7 +489,7 @@
       "netlist": "./",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "reference-design.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -609,6 +609,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "1bb90a40-7122-4522-9655-ffb2519dec46",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
