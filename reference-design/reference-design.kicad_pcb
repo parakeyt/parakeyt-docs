@@ -8695,6 +8695,17 @@
 			(uuid "f6b48afe-5dc9-47b3-9434-6eda53e99c8a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/TLC59208FIRGYR/RGY0016A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
@@ -10733,6 +10744,17 @@
 			(uuid "fb1b6a9a-7487-434c-8826-1c476a99f0c4")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/components/AH49FNTR_G1/SC59_DIO.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(gr_rect
 		(start 12.549999 12.5)
