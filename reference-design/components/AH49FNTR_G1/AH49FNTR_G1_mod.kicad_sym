@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "SC59_DIO"
-			(at 0 0 0)
+			(at 12.954 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "AH49FNTR-G1"
-			(at 0 0 0)
+			(at 12.954 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,6 +130,26 @@
 				)
 			)
 			(pin power_in line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AH49FNTR-G1_1_1"
+			(pin input line
 				(at 0 2.54 0)
 				(length 7.62)
 				(name "VCC"
@@ -147,7 +167,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -1.27 0)
 				(length 7.62)
 				(name "OUT"
@@ -158,24 +178,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

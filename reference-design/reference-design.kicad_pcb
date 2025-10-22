@@ -64,6 +64,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -549,7 +550,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "row0")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "cc305eda-a398-4cb4-a778-d76f87d87af0")
 		)
 		(pad "2" smd rect
@@ -558,7 +559,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "col3")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "a567a431-f39a-4ba4-9a72-01c83da63304")
 		)
 		(pad "3" smd rect
@@ -1011,7 +1012,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "row1")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "f87f6b83-f753-45b5-ae5a-5ec85f902b37")
 		)
 		(pad "2" smd rect
@@ -1020,7 +1021,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "col2")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "4725a238-2753-405d-bbab-dde620c5e4ab")
 		)
 		(pad "3" smd rect
@@ -1473,7 +1474,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "row0")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "414ee5c1-cf9d-4be9-9f03-aad9d30d0dd4")
 		)
 		(pad "2" smd rect
@@ -1482,7 +1483,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "col0")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "1ca9219a-d936-4f08-b2e6-3a784c74072a")
 		)
 		(pad "3" smd rect
@@ -1935,7 +1936,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "row2")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "555fadf9-a6f1-4edd-95e3-b89d6a712aca")
 		)
 		(pad "2" smd rect
@@ -1944,7 +1945,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "col0")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "64c1c3bb-8574-4ed1-8b1f-a57d9b830ead")
 		)
 		(pad "3" smd rect
@@ -2397,7 +2398,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "row1")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "db83aeb8-eeca-4233-8b18-ad0c4c814b7e")
 		)
 		(pad "2" smd rect
@@ -2406,7 +2407,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "col1")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "2ad12e87-fcc0-40f8-ac2f-216c8312877c")
 		)
 		(pad "3" smd rect
@@ -2459,7 +2460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3839,7 +3840,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "Net-(ADC1-DECAP)")
 			(pinfunction "DECAP")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "da9aabf2-7671-439f-970a-fe2ee79b0113")
 		)
 		(pad "9" smd rect
@@ -3848,7 +3849,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "GND")
-			(pintype "power_out")
+			(pintype "power_in")
 			(uuid "fd1ea998-7793-4101-938e-0272b0c020cc")
 		)
 		(pad "10" smd rect
@@ -3920,7 +3921,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "GND")
-			(pintype "power_out")
+			(pintype "power_in")
 			(uuid "16e0388c-6f6c-408a-8f8c-267f49d68c72")
 		)
 		(embedded_fonts no)
@@ -4364,7 +4365,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "row3")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "2934c57f-e2f3-4ee2-bfcc-0811d7782a90")
 		)
 		(pad "2" smd rect
@@ -4373,7 +4374,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "col3")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "2b828a3b-7ca0-4cbd-9868-e997da198293")
 		)
 		(pad "3" smd rect
@@ -4826,7 +4827,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "row2")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "5cc31b6b-1b5e-4063-af2a-e84d03cd2c55")
 		)
 		(pad "2" smd rect
@@ -4835,7 +4836,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "col2")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "a7ccbfc4-bdb0-4a90-8159-fd4b358ff57b")
 		)
 		(pad "3" smd rect
@@ -5288,7 +5289,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "row3")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "03d200c5-6ced-41e0-b3b2-bb557c8946b2")
 		)
 		(pad "2" smd rect
@@ -5297,7 +5298,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "col1")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "1bf77a04-f0f9-4816-a308-5e7cb473f4a4")
 		)
 		(pad "3" smd rect
@@ -5750,7 +5751,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "row0")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "b2d5ac52-ee58-46d3-9409-c8014871b370")
 		)
 		(pad "2" smd rect
@@ -5759,7 +5760,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "col1")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "6b0eba41-708d-4534-89ca-db845e703df2")
 		)
 		(pad "3" smd rect
@@ -6212,7 +6213,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "row2")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "c5598068-3f76-41c0-a41f-539c43f29b0e")
 		)
 		(pad "2" smd rect
@@ -6221,7 +6222,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "col1")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "eb63f23c-4200-4073-a68b-e0812d4aa4ba")
 		)
 		(pad "3" smd rect
@@ -7053,7 +7054,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "row3")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "a4477cf2-c31b-442c-9a01-ad2a2b370a39")
 		)
 		(pad "2" smd rect
@@ -7062,7 +7063,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "col2")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "5a1b315e-1ea6-429c-bcc5-1ced8b7a0e46")
 		)
 		(pad "3" smd rect
@@ -7515,7 +7516,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "row1")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "a33328ed-845d-48b6-b415-d703f02c82f6")
 		)
 		(pad "2" smd rect
@@ -7524,7 +7525,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "col0")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "845b638a-e60d-42dd-8277-15b11a6707c4")
 		)
 		(pad "3" smd rect
@@ -9233,7 +9234,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 18 "row2")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "b5e002b0-e1f3-4c7b-9e35-1ad42e1207df")
 		)
 		(pad "2" smd rect
@@ -9242,7 +9243,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "col3")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "9c9c1282-e81f-45b8-9948-b4ecef520d1b")
 		)
 		(pad "3" smd rect
@@ -9295,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9896,7 +9897,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "row1")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "729ef2e8-c8a5-4b52-bfec-6080fe6f0054")
 		)
 		(pad "2" smd rect
@@ -9905,7 +9906,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "col3")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "14000125-26a6-479f-956d-5ae473c2b323")
 		)
 		(pad "3" smd rect
@@ -10358,7 +10359,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "row0")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "f0e5da52-ef6e-48c9-b1b9-c8c5039b8b51")
 		)
 		(pad "2" smd rect
@@ -10367,7 +10368,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "col2")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "49a6e97a-724a-4edb-8508-f6c7b8fbe84f")
 		)
 		(pad "3" smd rect
@@ -10820,7 +10821,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "row3")
 			(pinfunction "VCC")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "6ba39417-407d-4c25-ad81-0c38143f22fb")
 		)
 		(pad "2" smd rect
@@ -10829,7 +10830,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "col0")
 			(pinfunction "OUT")
-			(pintype "output")
+			(pintype "passive")
 			(uuid "fc2717d7-3a1e-49f5-8943-4626ce8596d4")
 		)
 		(pad "3" smd rect
