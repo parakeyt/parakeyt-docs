@@ -2207,6 +2207,118 @@
 		(color 0 0 0 0)
 		(uuid "fe15e85c-32fc-4480-9100-be31dd1ccbb8")
 	)
+	(no_connect
+		(at 72.39 35.56)
+		(uuid "14ee59a1-2aa2-4a97-be60-ef7d90040dad")
+	)
+	(no_connect
+		(at 72.39 45.72)
+		(uuid "1c51a277-4181-49bd-be4a-184259ae12cc")
+	)
+	(no_connect
+		(at 46.99 43.18)
+		(uuid "23375967-924f-4ee1-bdf3-62fd9cf2a834")
+	)
+	(no_connect
+		(at 72.39 40.64)
+		(uuid "30f28c66-c311-46d0-87a5-8f065529a6d8")
+	)
+	(no_connect
+		(at 46.99 33.02)
+		(uuid "3134e235-5c7f-4b8a-a32e-f1ffdca7d7d9")
+	)
+	(no_connect
+		(at 72.39 38.1)
+		(uuid "37c1a5a3-b1a4-4d4c-8b9b-17f4d407e66e")
+	)
+	(no_connect
+		(at 92.71 177.8)
+		(uuid "3b42aaac-e2af-41d8-8d51-267bcf1348ae")
+	)
+	(no_connect
+		(at 64.77 50.8)
+		(uuid "3d14c17d-f7e9-4f20-9006-5fb8de1753e9")
+	)
+	(no_connect
+		(at 62.23 50.8)
+		(uuid "3fc7d4ad-88d6-408b-941b-c82e916c6ab1")
+	)
+	(no_connect
+		(at 26.67 85.09)
+		(uuid "4a31acc2-fc52-46cc-8a71-f89bdc2ec428")
+	)
+	(no_connect
+		(at 72.39 30.48)
+		(uuid "5360896b-6d8d-4d5a-884b-29377af7a01c")
+	)
+	(no_connect
+		(at 26.67 92.71)
+		(uuid "538abf5b-2a98-4c00-b2ab-9d41d3a99a3f")
+	)
+	(no_connect
+		(at 54.61 50.8)
+		(uuid "6a7174f0-8c8a-4ba5-8986-3c36e45833b5")
+	)
+	(no_connect
+		(at 92.71 167.64)
+		(uuid "6f3aa230-669e-43b3-84af-81e730e9205d")
+	)
+	(no_connect
+		(at 72.39 33.02)
+		(uuid "7df780c4-01d5-43ff-89f1-1af4a6f800e7")
+	)
+	(no_connect
+		(at 26.67 152.4)
+		(uuid "883b176d-b18f-4af1-b44d-9eb718704886")
+	)
+	(no_connect
+		(at 72.39 43.18)
+		(uuid "902b7473-2b5f-4e19-9694-748c3a32df99")
+	)
+	(no_connect
+		(at 92.71 175.26)
+		(uuid "96fe5290-6b73-41c2-b305-df075bc94c09")
+	)
+	(no_connect
+		(at 59.69 50.8)
+		(uuid "a0361c8b-7b36-4d31-aadb-f86f6702176c")
+	)
+	(no_connect
+		(at 46.99 35.56)
+		(uuid "ad410b70-091c-4046-8d72-c454ef010288")
+	)
+	(no_connect
+		(at 26.67 90.17)
+		(uuid "b2002083-3780-4b00-93ea-6ef52462d315")
+	)
+	(no_connect
+		(at 46.99 40.64)
+		(uuid "bb4a1852-a598-425f-853c-0e522f9c0f2d")
+	)
+	(no_connect
+		(at 46.99 38.1)
+		(uuid "cca2ec0e-5077-4b1e-9f6a-d3b6830af0e5")
+	)
+	(no_connect
+		(at 26.67 87.63)
+		(uuid "d58ddbe7-b384-469c-bc1e-3d4eb4ee11d6")
+	)
+	(no_connect
+		(at 92.71 170.18)
+		(uuid "dfd27419-ade7-4622-bd69-e95afb595dcf")
+	)
+	(no_connect
+		(at 57.15 50.8)
+		(uuid "e426caa7-a81f-4a11-90b0-6d7b572d2c54")
+	)
+	(no_connect
+		(at 46.99 45.72)
+		(uuid "f0ea9271-48ee-4f3a-8b79-0ff661cc7c02")
+	)
+	(no_connect
+		(at 92.71 152.4)
+		(uuid "fbc0ba51-1338-4e7d-974c-f9fb3675a57c")
+	)
 	(wire
 		(pts
 			(xy 128.27 78.74) (xy 163.83 78.74)
@@ -3359,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 102.87) (xy 241.3 105.41)
+			(xy 241.3 101.6) (xy 241.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3386,6 +3498,16 @@
 			(type default)
 		)
 		(uuid "fa74aae2-1ef3-4916-be85-deaff71c49ac")
+	)
+	(wire
+		(pts
+			(xy 43.18 25.4) (xy 46.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbee29a-906e-4fc7-95f1-8da7bbe81218")
 	)
 	(wire
 		(pts
@@ -4358,6 +4480,73 @@
 			(project "reference-design"
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 43.18 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20169147-a7fe-4f79-8b64-d4897fadf6d0")
+		(property "Reference" "#PWR030"
+			(at 46.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a500a8b-8bfc-421a-a24a-08acbc9b8376")
+		)
+		(instances
+			(project "reference-design"
+				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

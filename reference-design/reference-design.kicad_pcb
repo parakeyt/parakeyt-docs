@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -126,7 +125,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "1b2998df-850f-4bba-a3b4-18ea02e982c7")
-		(at 49 41.5)
+		(at 78.5 16.7192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H4"
 			(at 0 0 0)
@@ -588,7 +587,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "2920a6af-dd18-4fa1-ada0-f26da85db862")
-		(at 58.5 33.2808)
+		(at 68.5 25.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H7"
 			(at 0 0 0)
@@ -1050,7 +1049,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "2e572d28-f99f-4ae5-971c-0c4f37df33c0")
-		(at 48.950001 16.7808)
+		(at 49 16.7192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H1"
 			(at 0 0 0)
@@ -1512,7 +1511,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "385c9c6c-539c-4f94-a52e-cc41685a8e8a")
-		(at 68.5 16.5)
+		(at 49 33.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H9"
 			(at 0 0 0)
@@ -1974,7 +1973,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "3f450afd-c9c6-49ea-899e-d1a252e07188")
-		(at 58.5 25.5)
+		(at 58.5 25.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H6"
 			(at 0 0 0)
@@ -4403,7 +4402,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "720a15fe-5694-4fda-a9d1-ac0be780f209")
-		(at 78.450001 16.5)
+		(at 68.5 33.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H13"
 			(at 0 0 0)
@@ -4865,7 +4864,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "7718e4f1-a9aa-4bca-af94-eafdf6eef2ed")
-		(at 68.549999 41.2192)
+		(at 58.5 41.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H12"
 			(at 0 0 0)
@@ -5327,7 +5326,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "8285aa1a-e4d2-44db-8d8d-45a557a47435")
-		(at 48.950001 25.5)
+		(at 58.5 16.7192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H2"
 			(at 0 0 0)
@@ -5789,7 +5788,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "905d66eb-acda-4026-b658-c55708c0904e")
-		(at 68.5 33)
+		(at 58.5 33.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H11"
 			(at 0 0 0)
@@ -6660,7 +6659,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "98c15a15-124d-40c3-9aab-a799532f602e")
-		(at 78.450001 25.2192)
+		(at 68.5 41.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H14"
 			(at 0 0 0)
@@ -7122,7 +7121,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "ad903000-36ac-4a49-aadb-4ab9783577ea")
-		(at 58.5 16.7808)
+		(at 49 25.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H5"
 			(at 0 0 0)
@@ -8840,7 +8839,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "b801c852-7fda-4014-9a1b-a96b31abeca2")
-		(at 78.450001 33)
+		(at 78.5 33.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H15"
 			(at 0 0 0)
@@ -9503,7 +9502,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "e149f1c8-eef7-4a93-af3d-d6ad92bba2c5")
-		(at 58.549999 41.5)
+		(at 78.5 25.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H8"
 			(at 0 0 0)
@@ -9965,7 +9964,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "f2485abd-f91e-456a-960b-901827fcd41b")
-		(at 48.950001 33.2808)
+		(at 68.5 16.7192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H3"
 			(at 0 0 0)
@@ -10427,7 +10426,7 @@
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
 		(uuid "fa00e491-b294-42bc-be5b-6a57d235b7b7")
-		(at 68.5 25.2192)
+		(at 49 41.2192)
 		(tags "AH49FNTR-G1 ")
 		(property "Reference" "H10"
 			(at 0 0 0)

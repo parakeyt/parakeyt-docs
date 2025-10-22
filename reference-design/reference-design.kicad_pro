@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -439,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -478,18 +480,13 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "/i2c0_sda"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -612,11 +609,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "1bb90a40-7122-4522-9655-ffb2519dec46",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
