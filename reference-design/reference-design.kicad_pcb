@@ -71,7 +71,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -6252,7 +6251,7 @@
 			)
 		)
 	)
-	(footprint "RP2040-Zero:rp2040-zero-tht"
+	(footprint "RP2040-Zero:rp2040-zero-smd"
 		(layer "F.Cu")
 		(uuid "977ac819-e4ea-442f-bd5b-d9defb68ddaf")
 		(at 22.88 24.54)
@@ -6307,7 +6306,7 @@
 		(path "/98c077c1-a1db-4401-b176-842a4cf22e73")
 		(sheetname "/")
 		(sheetfile "reference-design.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr smd exclude_from_pos_files)
 		(fp_rect
 			(start -9 -11.75)
 			(end 9 11.75)
@@ -6317,319 +6316,285 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "03ac3448-c8e9-4306-8c29-ff97209ddf9f")
+			(uuid "73237144-837e-4704-b91d-240bdfbe78b5")
 		)
-		(pad "1" thru_hole oval
+		(pad "1" smd oval
 			(at 7.62 -10.16 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "i2c0_sda")
 			(pinfunction "0")
 			(pintype "bidirectional")
 			(uuid "d33f0f82-b48f-4c5d-9e7b-7a59bf67f432")
 		)
-		(pad "2" thru_hole oval
+		(pad "2" smd oval
 			(at 7.62 -7.62 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "i2c0_scl")
 			(pinfunction "1")
 			(pintype "bidirectional")
 			(uuid "9612be0f-c7a2-4735-8575-3232f98fc9c5")
 		)
-		(pad "3" thru_hole oval
+		(pad "3" smd oval
 			(at 7.62 -5.08 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "unconnected-(MCU1-2-Pad3)")
 			(pinfunction "2")
 			(pintype "bidirectional+no_connect")
 			(uuid "daaf2a51-65db-48d6-9115-8de789518b6d")
 		)
-		(pad "4" thru_hole oval
+		(pad "4" smd oval
 			(at 7.62 -2.54 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "unconnected-(MCU1-3-Pad4)")
 			(pinfunction "3")
 			(pintype "bidirectional+no_connect")
 			(uuid "e7bebd9a-fe42-4737-ac13-09c163b990a7")
 		)
-		(pad "5" thru_hole oval
+		(pad "5" smd oval
 			(at 7.62 0 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "unconnected-(MCU1-4-Pad5)")
 			(pinfunction "4")
 			(pintype "bidirectional+no_connect")
 			(uuid "5fe69bac-da37-49c4-a9de-6f2b34ad60a0")
 		)
-		(pad "6" thru_hole oval
+		(pad "6" smd oval
 			(at 7.62 2.54 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "unconnected-(MCU1-5-Pad6)")
 			(pinfunction "5")
 			(pintype "bidirectional+no_connect")
 			(uuid "57d21531-5c9b-48db-8f79-b9f116e7c905")
 		)
-		(pad "7" thru_hole oval
+		(pad "7" smd oval
 			(at 7.62 5.08 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 37 "unconnected-(MCU1-6-Pad7)")
 			(pinfunction "6")
 			(pintype "bidirectional+no_connect")
 			(uuid "ffc7bc64-d171-4d60-8176-0c835adc1075")
 		)
-		(pad "8" thru_hole oval
+		(pad "8" smd oval
 			(at 7.62 7.62 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "unconnected-(MCU1-7-Pad8)")
 			(pinfunction "7")
 			(pintype "bidirectional+no_connect")
 			(uuid "7329c480-f87c-4c14-bfc3-2a1a34a6cfb2")
 		)
-		(pad "9" thru_hole oval
+		(pad "9" smd oval
 			(at 7.62 10.16 180)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "unconnected-(MCU1-8-Pad9)")
 			(pinfunction "8")
 			(pintype "bidirectional+no_connect")
 			(uuid "939c37d1-2de2-4412-aa8c-8d64e81ea8b3")
 		)
-		(pad "10" thru_hole oval
+		(pad "10" smd oval
 			(at 5.08 10.16 90)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "unconnected-(MCU1-9-Pad10)")
 			(pinfunction "9")
 			(pintype "bidirectional+no_connect")
 			(uuid "fa6a0e31-5361-479f-be3c-1c4441ddf056")
 		)
-		(pad "11" thru_hole oval
+		(pad "11" smd oval
 			(at 2.54 10.16 90)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "unconnected-(MCU1-10-Pad11)")
 			(pinfunction "10")
 			(pintype "bidirectional+no_connect")
 			(uuid "7157bd85-b3ed-426c-9e6b-58ff7e10bc8f")
 		)
-		(pad "12" thru_hole oval
+		(pad "12" smd oval
 			(at 0 10.16 90)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "unconnected-(MCU1-11-Pad12)")
 			(pinfunction "11")
 			(pintype "bidirectional+no_connect")
 			(uuid "df1f63d5-0c9d-474d-a2c7-74f933ab82b5")
 		)
-		(pad "13" thru_hole oval
+		(pad "13" smd oval
 			(at -2.54 10.16 90)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "unconnected-(MCU1-12-Pad13)")
 			(pinfunction "12")
 			(pintype "bidirectional+no_connect")
 			(uuid "7a2c6b5b-7131-4665-94bc-ca2158ed7fed")
 		)
-		(pad "14" thru_hole oval
+		(pad "14" smd oval
 			(at -5.08 10.16 90)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "unconnected-(MCU1-13-Pad14)")
 			(pinfunction "13")
 			(pintype "bidirectional+no_connect")
 			(uuid "8fc33470-4dae-48dd-be36-dbd849d0bac2")
 		)
-		(pad "15" thru_hole oval
+		(pad "15" smd oval
 			(at -7.62 10.16)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "unconnected-(MCU1-14-Pad15)")
 			(pinfunction "14")
 			(pintype "bidirectional+no_connect")
 			(uuid "5ea3b9a5-da13-43c8-89fa-25bd9885dea7")
 		)
-		(pad "16" thru_hole oval
+		(pad "16" smd oval
 			(at -7.62 7.62)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 31 "unconnected-(MCU1-15-Pad16)")
 			(pinfunction "15")
 			(pintype "bidirectional+no_connect")
 			(uuid "ba13112c-9dbb-47ff-960c-25b6c62244b8")
 		)
-		(pad "17" thru_hole oval
+		(pad "17" smd oval
 			(at -7.62 5.08)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "unconnected-(MCU1-26-Pad17)")
 			(pinfunction "26")
 			(pintype "bidirectional+no_connect")
 			(uuid "1712e204-6b35-4860-9373-c6a493e5bf5f")
 		)
-		(pad "18" thru_hole oval
+		(pad "18" smd oval
 			(at -7.62 2.54)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "unconnected-(MCU1-27-Pad18)")
 			(pinfunction "27")
 			(pintype "bidirectional+no_connect")
 			(uuid "137acd7b-1208-4560-9b05-96f6ff026396")
 		)
-		(pad "19" thru_hole oval
+		(pad "19" smd oval
 			(at -7.62 0)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "unconnected-(MCU1-28-Pad19)")
 			(pinfunction "28")
 			(pintype "bidirectional+no_connect")
 			(uuid "cbd86e34-358d-4151-ab22-ee24977caa60")
 		)
-		(pad "20" thru_hole oval
+		(pad "20" smd oval
 			(at -7.62 -2.54)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "unconnected-(MCU1-29-Pad20)")
 			(pinfunction "29")
 			(pintype "bidirectional+no_connect")
 			(uuid "1f38fe3e-ae68-4271-8b60-4638c906394e")
 		)
-		(pad "21" thru_hole oval
+		(pad "21" smd oval
 			(at -7.62 -5.08)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "+3.3V")
 			(pinfunction "3V3")
 			(pintype "power_out")
 			(uuid "08a72ba7-c12a-4c4e-af32-e7e53145535e")
 		)
-		(pad "22" thru_hole oval
+		(pad "22" smd oval
 			(at -7.62 -7.62)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
 			(uuid "04080cf2-882b-4613-978a-46d3432db630")
 		)
-		(pad "23" thru_hole oval
+		(pad "23" smd oval
 			(at -7.62 -10.16)
 			(size 2.5 1.5)
-			(drill 1
+			(drill
 				(offset -0.5 0)
 			)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "+5V")
 			(pinfunction "5V")
 			(pintype "power_out")
 			(uuid "ccc60a86-dbd7-49a1-a6a0-8d3eb19352ab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/components/RP2040-Zero/RP2040-Zero.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "AH49FNTR_G1:SC59_DIO"
 		(layer "F.Cu")
