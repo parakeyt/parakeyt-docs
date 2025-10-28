@@ -1527,24 +1527,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 66.04 0 180)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 66.04 -2.54 180)
 					(length 7.62)
@@ -1682,6 +1664,134 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLC59208FIRGYR_1_1"
+				(pin power_in line
+					(at 26.67 -33.02 90)
+					(length 7.62)
+					(name "TV0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 29.21 -33.02 90)
+					(length 7.62)
+					(name "TV1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 31.75 -33.02 90)
+					(length 7.62)
+					(name "TV2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 34.29 -33.02 90)
+					(length 7.62)
+					(name "TV3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 36.83 -33.02 90)
+					(length 7.62)
+					(name "TV4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 39.37 -33.02 90)
+					(length 7.62)
+					(name "TV5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 66.04 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1929,9 +2039,9 @@
 		)
 		(uuid "3ed7d56f-0d02-46cf-88ae-0eb566e59894")
 	)
-	(text "A0 = A1 = A2 = LOW -> 0b0100000\nReset pulled high to ENABLE\nepad grounded for heat dissipation per spec"
+	(text "A0 = A1 = A2 = LOW -> 0b0100000\nReset pulled high to ENABLE\nepad & thermal vias grounded for heat dissipation per spec"
 		(exclude_from_sim no)
-		(at 60.198 181.356 0)
+		(at 59.69 191.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2002,6 +2112,12 @@
 		(uuid "3add3490-8d3d-4ebb-9f72-e42e7b80ada8")
 	)
 	(junction
+		(at 58.42 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bfe0bee-7d3b-49cd-bae8-f8f4e8661540")
+	)
+	(junction
 		(at 200.66 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2044,6 +2160,12 @@
 		(uuid "72ee0427-a6b4-49d4-8d6e-6210e0a639e5")
 	)
 	(junction
+		(at 55.88 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fbb8ef4-cb0b-43ca-a746-4e81803bdd07")
+	)
+	(junction
 		(at 97.79 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2072,6 +2194,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d40aa2f-de72-4057-b2c8-259368d1af75")
+	)
+	(junction
+		(at 63.5 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8100835-362c-43a9-b8b7-55e8c2069b50")
+	)
+	(junction
+		(at 60.96 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b10026aa-d29f-4eef-8466-0c347c3cd97e")
+	)
+	(junction
+		(at 66.04 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b66b9a03-94eb-4a05-ae1d-7057f96a0152")
 	)
 	(junction
 		(at 163.83 134.62)
@@ -2313,6 +2453,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 185.42) (xy 58.42 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fb6a9d-1283-45a0-9fab-87098433fab0")
+	)
+	(wire
+		(pts
 			(xy 237.49 101.6) (xy 237.49 106.68)
 		)
 		(stroke
@@ -2370,6 +2520,16 @@
 			(type default)
 		)
 		(uuid "27ce3ff5-c852-4d3a-b030-ef64e022326a")
+	)
+	(wire
+		(pts
+			(xy 66.04 185.42) (xy 68.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288dd063-20e7-4f24-a4c4-69ee4c9249eb")
 	)
 	(wire
 		(pts
@@ -2823,6 +2983,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 185.42) (xy 63.5 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e0d2e5-bbd3-440d-883f-ec6eb20daa73")
+	)
+	(wire
+		(pts
 			(xy 16.51 106.68) (xy 16.51 107.95)
 		)
 		(stroke
@@ -2870,6 +3040,26 @@
 			(type default)
 		)
 		(uuid "873bf62f-40ec-4d64-aa67-74fcae3436c8")
+	)
+	(wire
+		(pts
+			(xy 58.42 185.42) (xy 60.96 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889887b0-30e5-41b7-accc-5e3a18426a87")
+	)
+	(wire
+		(pts
+			(xy 63.5 185.42) (xy 66.04 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889a7793-8f07-4c1c-aa5a-8f447dd106c3")
 	)
 	(wire
 		(pts
@@ -3190,6 +3380,16 @@
 			(type default)
 		)
 		(uuid "cb99d224-2584-459a-b503-3c7e92b16091")
+	)
+	(wire
+		(pts
+			(xy 53.34 185.42) (xy 55.88 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9eb50d-06c2-4af6-b951-c30dd58cafce")
 	)
 	(wire
 		(pts
@@ -4699,6 +4899,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bdf1a9a-fddc-4e80-9090-94030588dde3")
+		(property "Reference" "#PWR031"
+			(at 74.93 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4add7b2e-f271-46a6-9ec6-377524de904e")
+		)
+		(instances
+			(project "reference-design"
+				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 16.51 111.76 0)
 		(unit 1)
@@ -4988,7 +5255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a33dc15-2a3a-4980-9515-29115d621ee0")
-		(property "Reference" "H14"
+		(property "Reference" "H15"
 			(at 212.09 143.5099 90)
 			(effects
 				(font
@@ -5047,7 +5314,7 @@
 		(instances
 			(project "reference-design"
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
-					(reference "H14")
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -5623,7 +5890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92932422-2f0d-4e6a-9328-618e383eebdf")
-		(property "Reference" "H11"
+		(property "Reference" "H10"
 			(at 175.26 115.5699 90)
 			(effects
 				(font
@@ -5682,7 +5949,7 @@
 		(instances
 			(project "reference-design"
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
-					(reference "H11")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -6224,7 +6491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b03142a2-8ee3-4962-8e61-bedc98716cc9")
-		(property "Reference" "H10"
+		(property "Reference" "H13"
 			(at 139.7 143.5099 90)
 			(effects
 				(font
@@ -6283,7 +6550,7 @@
 		(instances
 			(project "reference-design"
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
-					(reference "H10")
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -6299,7 +6566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49ddd97-d7f1-43a6-a491-117b229e3c9e")
-		(property "Reference" "H13"
+		(property "Reference" "H11"
 			(at 212.09 115.5699 90)
 			(effects
 				(font
@@ -6358,7 +6625,7 @@
 		(instances
 			(project "reference-design"
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
-					(reference "H13")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -6470,6 +6737,24 @@
 		(pin "9"
 			(uuid "bd26ca86-dbf6-4154-9b63-605bd9a445c0")
 		)
+		(pin "23"
+			(uuid "894f7d02-20ce-47a5-b98f-d7b4bc3b98a6")
+		)
+		(pin "20"
+			(uuid "f1f53406-fed1-45c0-9466-50c4a05f3d62")
+		)
+		(pin "21"
+			(uuid "1bfc6f9e-4d11-43d5-abbc-a2954733ca5d")
+		)
+		(pin "18"
+			(uuid "688e07a9-fd6a-4e70-ad71-14a7a53bbfec")
+		)
+		(pin "22"
+			(uuid "35de140d-0378-47c7-8f0c-991b7a5d0d5d")
+		)
+		(pin "19"
+			(uuid "66746b9b-07b2-48b0-bc63-90cb98149df0")
+		)
 		(instances
 			(project ""
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
@@ -6489,7 +6774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0bb270-b602-4413-914a-80c705841475")
-		(property "Reference" "H15"
+		(property "Reference" "H12"
 			(at 248.92 115.5699 90)
 			(effects
 				(font
@@ -6548,7 +6833,7 @@
 		(instances
 			(project "reference-design"
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
-					(reference "H15")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -7238,7 +7523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa85b889-d5d1-4b2e-b858-2028f93eb226")
-		(property "Reference" "H12"
+		(property "Reference" "H14"
 			(at 175.26 143.5099 90)
 			(effects
 				(font
@@ -7297,7 +7582,7 @@
 		(instances
 			(project "reference-design"
 				(path "/1bb90a40-7122-4522-9655-ffb2519dec46"
-					(reference "H12")
+					(reference "H14")
 					(unit 1)
 				)
 			)
