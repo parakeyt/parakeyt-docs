@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "TLA2528IRTER ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.5 4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "da9bb416-dea0-4003-9ddb-79990c5eaece")
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "WQFN16_RTE_TEX"
-		(at 0 0 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "449c43b2-67c6-4d2b-ab11-441a8853263c")
@@ -1099,7 +1099,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.5 -3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1973070b-ddf0-4968-a92a-4c8bb589ab33")

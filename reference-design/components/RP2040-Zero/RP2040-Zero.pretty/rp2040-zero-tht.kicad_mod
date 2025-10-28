@@ -93,6 +93,17 @@
 		(layer "Edge.Cuts")
 		(uuid "96e87ac2-5565-47ab-ae62-263f85b93211")
 	)
+	(fp_rect
+		(start -9.5 -12)
+		(end 9.5 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "f871da55-1f3e-4f02-9c0c-554c4537edd7")
+	)
 	(pad "1" thru_hole oval
 		(at 7.62 -10.16 180)
 		(size 2.5 1.5)
