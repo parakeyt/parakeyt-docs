@@ -53,47 +53,6 @@
 	)
 	(attr through_hole exclude_from_pos_files)
 	(fp_rect
-		(start -9 -11.75)
-		(end 9 11.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "180245d9-4a3f-4d1b-adcc-b4eafac722e0")
-	)
-	(fp_line
-		(start -6 -11.75)
-		(end -6 8.89)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b4450c83-6da6-4393-a892-92bf8cbec8aa")
-	)
-	(fp_line
-		(start -6 8.89)
-		(end 6 8.89)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "57e128ae-5e07-4818-9f5a-1cee0e65c680")
-	)
-	(fp_line
-		(start 6 8.89)
-		(end 6 -11.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "96e87ac2-5565-47ab-ae62-263f85b93211")
-	)
-	(fp_rect
 		(start -9.5 -12)
 		(end 9.5 12)
 		(stroke
@@ -101,8 +60,30 @@
 			(type default)
 		)
 		(fill no)
+		(layer "F.SilkS")
+		(uuid "2ff3983a-a035-438b-bd39-e58ab2a438dd")
+	)
+	(fp_rect
+		(start -6 -11.75)
+		(end 6 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "95c8b371-95cb-477a-9e07-c65c156856aa")
+	)
+	(fp_rect
+		(start -10.4 -12.75)
+		(end 10.9 13.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
 		(layer "Margin")
-		(uuid "f871da55-1f3e-4f02-9c0c-554c4537edd7")
+		(uuid "0b1b335a-14d2-46c7-b956-dc8383d1cb04")
 	)
 	(pad "1" thru_hole oval
 		(at 7.62 -10.16 180)

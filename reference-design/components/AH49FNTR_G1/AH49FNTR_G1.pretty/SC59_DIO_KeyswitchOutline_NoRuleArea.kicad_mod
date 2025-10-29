@@ -1,11 +1,11 @@
-(footprint "SC59_DIO_KeyswitchOutline"
+(footprint "SC59_DIO_KeyswitchOutline_NoRuleArea"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "AH49FNTR-G1 ")
 	(property "Reference" "REF**"
-		(at 3.75 4.9 0)
+		(at 0.775 3.0428 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f8d85fc6-864a-43a8-a89d-5779fb4a5aa3")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SC59_DIO_KeyswitchOutline"
+	(property "Value" "SC59_DIO_KeyswitchOutline_NoRuleArea"
 		(at 3.775 -2.4572 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -446,7 +446,7 @@
 		(uuid "63ac2e7f-9269-420a-bfa0-ddb41f8d5915")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -3.9 -4.7 0)
+		(at 0.029 5.5428 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a07ad7aa-0425-49d8-b4a3-f3114221007a")
@@ -472,55 +472,22 @@
 		(uuid "4b5e29d4-5ef6-4363-ace6-9840de19e389")
 	)
 	(pad "1" smd rect
-		(at -0.925001 1.2634)
+		(at -0.921001 1.2606)
 		(size 0.5588 1.27)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fa4bfc87-0844-427a-be50-a5ea197b2faf")
+		(uuid "a7680fcf-c86a-4fb0-a1e8-1b564be9c298")
 	)
 	(pad "2" smd rect
-		(at 0.975001 1.2634)
+		(at 0.979001 1.2606)
 		(size 0.5588 1.27)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ea6c2774-1058-4c42-af5d-2fc007a98cb7")
+		(uuid "b65a51fa-2fe3-4d4e-bd67-c326ffc0ebb5")
 	)
 	(pad "3" smd rect
-		(at 0.025 -1.175)
+		(at 0.029 -1.1778)
 		(size 0.5588 1.27)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b4c468ff-2d94-4e77-9567-07a0be0e4b85")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "eebe3c27-459f-4652-abdd-55a747f4d5a5")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -6.5 -6.5) (xy -2 -6.5) (xy -0.5 -0.54) (xy 0.5 -0.54) (xy 2 -6.5) (xy 6.5 -6.5) (xy 6.5 6.5)
-				(xy -6.5 6.5)
-			)
-		)
+		(uuid "9f36cbd0-4c54-45af-956e-d3869959ed31")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/components/AH49FNTR_G1/AH49FNTR_G1.3dshapes/SC59_DIO.step"
