@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ParaKeyt Reference Design")
-		(date "2025-10-30")
-		(rev "0.7")
+		(date "2025-11-05")
+		(rev "0.8")
 		(company "UMass ECE SDP26 Team 32")
 		(comment 1 "Bennett Gilig, Raffi Belorian, Rikhav Shah, Shlok Raval, Theo Krueger")
 	)
